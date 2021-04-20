@@ -1,0 +1,30 @@
+﻿
+.Calculadora {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/564x/24/ac/45/24ac45f68e31477d9de1ea3568de6d7a.jpg);
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.Calculadora td button{
+    display:block;
+    width:70px;
+    height:70px;
+    font-size:25px;
+}
+
+#resultado{
+    display:block;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    width:200px;
+    height:70px;
+    line-height:100px;
+    background-color:#fff;
+    border-radius:25px;
+    overflow-y: scroll;
+}
